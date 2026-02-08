@@ -441,10 +441,15 @@ elif st.session_state.operation == "watermark":
 # Footer
 st.markdown("---")
 st.markdown("""
-    <div style='text-align: center; color: gray;'>
+    <div style='text-align: center; color: gray; font-size: 14px;'>
         <p>Pure PDF | Version 5.0 (Web Version)</p>
         <p>Developed by JS</p>
+        <p style="font-size: 12px;">
+            🔒 Files are processed only during your session and are not permanently stored. All uploaded files are deleted when the session ends.
+        </p>
     </div>
 """, unsafe_allow_html=True)
+
+
 
 
